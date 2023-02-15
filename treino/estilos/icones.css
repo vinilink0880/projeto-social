@@ -1,4 +1,3 @@
-
 @charset "UTF-8";
 
 * {
@@ -6,25 +5,27 @@
     padding: 0px;
 }
 
+
 ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
-}
-
-body {
-    background-color: darkred;
 }
 
 img {
     width: 100vw;
 }
 
+body {
+    background-color: darkred;
+}
+
 a {
-    color: white;
     display: block;
+    color: white;
     background-color: darkred;
     padding: 20px 20px 25px 20px;
-    text-align: center;
+    font-size: 1em;
     text-decoration: none;
-    font-weight: bolder;
+    text-align: center;
+
 }
